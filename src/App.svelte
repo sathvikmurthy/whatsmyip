@@ -159,6 +159,7 @@
 		border-color: gray;
 	}
 
+<<<<<<< HEAD
 	@media all and (max-width: 768px) {
 		.ip__container {
 			flex-direction: column;
@@ -177,3 +178,6 @@
 	}
 
 </style>
+=======
+</style>
+>>>>>>> edcb9e228f2056d59ea9bb3150df04950137d8c2
