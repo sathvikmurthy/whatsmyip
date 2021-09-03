@@ -111,6 +111,9 @@
 	.ip__container {
 		display: flex;
 		flex-direction: row;
+		width: 100vw;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.ip__input {
@@ -148,10 +151,29 @@
 		align-items: center;
 		justify-content: center;
 		transition: 400ms;
+		height: 40px;
+		outline: none;
 	}
 
 	.ip__copy:hover {
 		border-color: gray;
+	}
+
+	@media all and (max-width: 768px) {
+		.ip__container {
+			flex-direction: column;
+		}
+
+		.ip__input {
+			width: 70vw;
+			margin-right: 0;
+			margin-bottom: 10px;
+		}
+
+		.ip__copy {
+			margin-left: 0;
+			margin-top: 10px;
+		}
 	}
 
 </style>
