@@ -7,7 +7,7 @@
 	let isCopy = false;
 
 	onMount(async () => {
-		await axios.get(process.env.API_URI)
+		await axios.get(https://api.ipify.org/?format=json)
 		.then((res) => {
 			ip = res.data.ip.toString()
 		})
